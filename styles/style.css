@@ -1,0 +1,6 @@
+body div.project-container{
+    display: flex;
+}
+div.img-container div.logo-container img.logo-img{
+    position: absolute;
+}
