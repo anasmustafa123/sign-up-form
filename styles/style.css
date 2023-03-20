@@ -3,6 +3,9 @@ body{
     width: 100vw;
     overflow: hidden;
 }
+li{
+    list-style-type: none;
+}
 body div.project-container{
     display: flex;
     height: 100%;
@@ -10,6 +13,7 @@ body div.project-container{
 div.project-container div.img-container img.side-background{
    position: absolute;
     width: 100%;
+    height: 100%;
     z-index: -1;
 }
 div.project-container  div.img-container{
@@ -32,6 +36,31 @@ div.project-container div.img-container div.logo-container{
     width: 20%;    
 } 
 div.project-container div.img-container h1.logo-header{
-    font-size: 70px;
+    font-size: 4rem;
     color: #fafafa;
+    font-family:'Minion Pro';
+}
+div.project-container div.form-container{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+div.project-container div.form-container div.header{
+    height: 35%;
+    font-size: 24px;
+    font-family:'Minion Pro';
+    padding: 30px;
+    background-color: #f6f6f6;
+} 
+
+div.project-container div.form-container form.form-class{
+    height: 30%;
+}
+div.project-container div.form-container div.footer{
+    height: 35%;
+}
+div.project-container div.form-container div.header h2.header-text-1 {
+    margin-top: 144px;
+    margin-right: 285px;
 }
