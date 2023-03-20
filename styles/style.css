@@ -3,9 +3,7 @@ body{
     width: 100vw;
     overflow: hidden;
 }
-li{
-    list-style-type: none;
-}
+
 body div.project-container{
     display: flex;
     height: 100%;
@@ -56,11 +54,31 @@ div.project-container div.form-container div.header{
 
 div.project-container div.form-container form.form-class{
     height: 30%;
+    padding-left: 71px;
 }
 div.project-container div.form-container div.footer{
     height: 35%;
 }
 div.project-container div.form-container div.header h2.header-text-1 {
-    margin-top: 144px;
-    margin-right: 285px;
+    margin-top: 12%;
+    margin-right: 25px;
+}
+div.input-container{
+    display: flex;
+    gap: 25px;
+
+}
+div.input-container section{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 35%;
+}
+div.input-container section li{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+} 
+div.input-container section input{
+    height: 30px;
 }
