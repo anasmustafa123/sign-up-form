@@ -79,6 +79,21 @@ div.input-container section li{
     flex-direction: column;
     list-style-type: none;
 } 
+div.input-container section li label{
+    color: #221e1ecc;
+    font-weight: 600;
+}
 div.input-container section input{
     height: 30px;
+}
+div.project-container div.form-container div.header h2{
+    font-size: clamp(16px, 36px, 4vw);
+}
+div.project-container div.form-container div.header h2.header-text-2 {
+    font-style: italic;
+}
+div.project-container div.form-container form.form-class .form-header{
+    font-size: clamp(16px, 36px, 4vw);
+    color: #353232cc;
+
 }
