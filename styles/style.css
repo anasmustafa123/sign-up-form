@@ -3,6 +3,9 @@ body{
     width: 100vw;
     overflow: hidden;
 }
+:root{
+    --padding-left: 71px ; 
+}
 
 body div.project-container{
     display: flex;
@@ -48,13 +51,13 @@ div.project-container div.form-container div.header{
     height: 35%;
     font-size: 24px;
     font-family:'Minion Pro';
-    padding: 30px;
+    padding-left: var(--padding-left);
     background-color: #f6f6f6;
 } 
 
 div.project-container div.form-container form.form-class{
     height: 30%;
-    padding-left: 71px;
+    padding-left: var(--padding-left);
 }
 div.project-container div.form-container div.footer{
     height: 35%;
@@ -104,11 +107,10 @@ div.project-container div.form-container div.footer div.footer-data{
      display: flex;
     flex-direction: column;
     gap: 18px;
-    margin-left: 26px;
+    padding-left: var(--padding-left);
     margin-top: 35px;
 }
 div.project-container div.form-container div.footer button{
-    width: 300px;
     height: 60px;
     border: 0px;
     border-radius: 9px;
