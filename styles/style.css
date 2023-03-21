@@ -87,7 +87,8 @@ div.input-container section li label{
     font-weight: 600;
 }
 div.input-container section input{
-    height: 30px;
+    height: 35px;
+    border-radius: 7px;
 }
 div.project-container div.form-container div.header h2{
     font-size: clamp(16px, 36px, 4vw);
@@ -125,3 +126,9 @@ div.project-container div.form-container div.footer div.footer-text{
     font-size: 19px;
     text-align: center;
 }
+div.project-container div.form-container div.footer div.footer-text a{
+    color: #596D48;
+    text-decoration: none;
+    font-weight: 700;
+}
+
