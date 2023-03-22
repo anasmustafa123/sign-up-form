@@ -86,7 +86,13 @@ div.project-container div.form-container form.form-class div.input-container sec
 div.project-container div.form-container form.form-class div.input-container section li input:hover{
     border: 2px solid blue;
 }
- 
+/* div.project-container div.form-container form.form-class div.input-container section li input:valid {
+    border: 2px solid green;
+}
+div.project-container div.form-container form.form-class div.input-container section li input:invalid {
+    --input-border-color: red;
+} */
+
 div.input-container section li label{
     color: #221e1ecc;
     font-weight: 600;
@@ -132,7 +138,11 @@ div.project-container div.form-container div.footer button{
     font-size: 23px;
     font-weight: 700;
     text-align: center;
-    box-shadow: 10px 19px 12px -7px #dbe5db;}
+    box-shadow: 10px 19px 12px -7px #dbe5db;
+}
+/* div.project-container div.form-container div.footer button:active{
+    
+} */
 div.project-container div.form-container div.footer div.footer-text{
     width: 350px;
     font-size: 19px;
