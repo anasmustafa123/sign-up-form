@@ -58,37 +58,49 @@ div.project-container div.form-container div.header{
 div.project-container div.form-container form.form-class{
     height: 30%;
     padding-left: var(--padding-left);
+    box-shadow: 1px 6px 17px #eaeaea;
 }
 div.project-container div.form-container div.footer{
     height: 35%;
 }
 div.project-container div.form-container div.header h2.header-text-1 {
     margin-top: 12%;
-    margin-right: 25px;
+    margin-right: 120px;
 }
-div.input-container{
+div.project-container div.form-container form.form-class div.input-container{
     display: flex;
     gap: 25px;
 
 }
-div.input-container section{
+div.project-container div.form-container form.form-class div.input-container section{
     display: flex;
     flex-direction: column;
     gap: 25px;
     width: 35%;
 }
-div.input-container section li{
+div.project-container div.form-container form.form-class div.input-container section li{
     display: flex;
     flex-direction: column;
     list-style-type: none;
 } 
+div.project-container div.form-container form.form-class div.input-container section li input:hover{
+    border: 2px solid blue;
+}
+ 
 div.input-container section li label{
     color: #221e1ecc;
     font-weight: 600;
 }
-div.input-container section input{
+div.project-container div.form-container form.form-class div.input-container section input{
     height: 35px;
     border-radius: 7px;
+    border: none;
+    padding: 0 10px;
+    margin: 0px;
+    width: 80%;
+    background: rgba(0,0,0,0.05);
+    box-shadow: -1px 6px 19px -4px #EAEAE6;
+
 }
 div.project-container div.form-container div.header h2{
     font-size: clamp(16px, 36px, 4vw);
