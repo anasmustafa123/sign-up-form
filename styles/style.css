@@ -6,8 +6,8 @@ body{
 :root{
     --padding-left: 71px ; 
     --img-container-width: 35%;
-    --invalid-color: 2px solid  red ;
-    --valid-color: 2px solid  rgb(18, 197, 18) ;
+    --invalid-color:  red ;
+    --valid-color:  rgb(18, 197, 18) ;
 }
 
 body div.project-container{
@@ -76,7 +76,11 @@ div.project-container div.form-container div.header h2.header-text-1 {
 div.project-container div.form-container form.form-class div.input-container{
     display: flex;
     gap: 25px;
-
+}
+h2.form-header {
+    margin-bottom: 38px;
+    margin-top: 0px;
+    font-size: clamp(24px, 33px, 4vw);
 }
 div.project-container div.form-container form.form-class div.input-container section{
     display: flex;
@@ -110,12 +114,13 @@ div.form-container form.form-class div.input-container section input{
 input:focus{
     outline: none;
 }
-input:not(:focus):valid{
-    border: var(--valid-color) !important;
+input:not(:focus):not(:placeholder-shown):valid{
+    border: 2px solid var(--valid-color) !important;
 }
-input:not(:focus):invalid{
-    border: var(--invalid-color) !important;
+input:not(:focus):not(:placeholder-shown):invalid{
+    border: 2px solid var(--invalid-color) !important;
 }
+
 div.project-container div.form-container div.header h2{
     font-size: clamp(24px, 33px, 4vw);
 }
