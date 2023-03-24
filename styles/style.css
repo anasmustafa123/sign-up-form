@@ -113,6 +113,8 @@ div.form-container form.form-class div.input-container section input{
 }
 input:focus{
     outline: none;
+    border: 1px solid rgb(40, 40, 196) !important;
+    box-shadow: 1px 1px 1px 1px rgb(135, 135, 243);
 }
 input:not(:focus):not(:placeholder-shown):valid{
     border: 2px solid var(--valid-color) !important;
@@ -149,6 +151,12 @@ div.project-container div.form-container div.footer button{
     font-weight: 700;
     text-align: center;
     box-shadow: 10px 19px 12px -7px #dbe5db;
+}
+div.project-container div.form-container div.footer button:hover{
+    background: #879b74;
+}
+div.project-container div.form-container div.footer button:active{
+    background:  #596D48;;
 }
 div.project-container div.form-container div.footer div.footer-text{
     width: 350px;
